@@ -1,0 +1,500 @@
+body{
+    background-image: url(../images/bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* Home page */
+body{
+    margin: 0px;
+}
+
+#top_bar{
+    width:100%;
+    height:20px;
+    background-color: #c59900;
+}
+
+#container{
+    width: 86%;
+    height: 500px;
+    margin: auto;
+}
+
+#nav_bar{
+    width: 100%;
+    height: 128px;
+}
+
+#nav_bar img{
+    width: auto;
+    height: 103px;
+    margin: 10px 10px 10px 20px;
+}
+
+#nav_bar ul{
+    float: right;
+    margin-top: 77px;
+    margin-right: 10px;
+}
+
+#nav_bar ul li{
+    display: inline;
+    margin-right: 10px;
+}
+
+#nav_bar ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Berlin Sans FB;
+    color:#c59900;
+    margin-bottom: 2px;
+}
+
+#nav_bar ul li a:hover{
+    color:white;
+    text-decoration: underline;
+    transition: all 500ms ease;
+}
+
+#banner{
+    width:100%;
+    height: 515px;
+    background-color: #c59900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner img{
+    width: 1069px;
+    height: 499px;
+}
+
+#houses{
+    margin-top: 20px;
+    display: flex;
+}
+
+#house-title{
+    position: absolute;
+    margin: 50px 380px;
+    font-size: 40px;
+    font-family:  Algerian;
+    color: white;
+}
+
+
+#houses div{
+    margin-top: 140px;
+    background-color: #e0cf8a;
+    height: 350px;
+    width: 328px;
+    display: block;
+    cursor: grab;
+}
+
+#content2{
+    margin-left: 20px;
+}
+
+#content3{
+    margin: 0 20px;
+}
+
+#houses div h2{
+margin-left: 50px;
+font-family: Algerian ;
+font-size: 20px;
+}
+
+#content1 h2{
+    background-color: #c59900;
+}
+
+#content2 h2{
+    background-color: #9a2b29;
+    color: white;
+    font-weight: 300;
+}
+
+#content3 h2{
+    background-color: #22284a;
+    color: white;
+    font-weight: 300;
+}
+
+#content4 h2{
+    background-color: #368271;
+}
+
+#houses div .content-img{
+    width: 180px;
+    height: 0px;
+    margin: -28px 0px 0px 39px;
+    transition: .5s ease;
+}
+
+.holder{
+    height: 40px;
+    margin-left: 30px;
+    position: relative;
+    z-index:1 ;
+}
+
+#content1:hover .content-img{
+    height: 200px;
+
+}
+
+#content2:hover .content-img{
+    height: 200px;
+}
+
+#content3:hover .content-img{
+    height: 200px;
+    
+}
+
+#content4:hover .content-img{
+    height: 200px;
+}
+
+#content1:hover p{
+    margin-top: 0px;
+}
+
+#content2:hover p{
+    margin-top: 0px;
+}
+
+#content3:hover p{
+    margin-top: 0px;
+    
+}
+
+#content4:hover p{
+    margin-top: 0px;
+}
+
+#houses div p{
+    font-size: 20px;
+    margin: 150px 20px 8px 20px;
+    transition: 0.5s ease;
+}
+
+#footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Candara;
+    font-weight: 300;
+    margin-top: 720px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* houses page */
+
+#nav-background-h3{
+    position: absolute;
+    width: 86.1%;
+    z-index: -2;
+    margin-top: -500px;
+}
+
+#house-title-2{
+    text-align: center;
+    font-size: 40px;
+    font-family:  Algerian;
+    color: white;
+}
+
+#houses-2{
+    width: 100%;
+    height: 50px;
+}
+
+#houses-2 div img{
+    width: 200px;
+    height: 200px;
+    margin: -8px 25px;
+}
+
+#house1{
+    height: 300px;
+    width: 100%;
+    background-color: #e0cf8a;
+}
+
+#house1 p{
+float: right;
+margin:-185px 140px 20px 280px;
+}
+
+#house1 h2{
+    margin-left: 35px;
+    padding: 10px 0px;
+
+}
+
+#title-background1{
+    margin-top: 20px;
+    width: 25%;
+    background-color: #c59900;
+  
+}
+
+#house2{
+    height: 300px;
+    width: 100%;
+    background-color: #e0cf8a;
+}
+
+#house2 p{
+float: right;
+margin:-185px 140px 20px 280px;
+}
+
+#house2 h2{
+    margin-left: 35px;
+    padding: 10px 0px;
+
+}
+
+#title-background2{
+    margin-top: 20px;
+    width: 25%;
+    background-color: #9a2b29;
+    color: white;
+  
+}
+
+#house3{
+    height: 300px;
+    width: 100%;
+    background-color: #e0cf8a;
+}
+
+#house3 p{
+float: right;
+margin:-185px 140px 20px 280px;
+}
+
+#house3 h2{
+    margin-left: 35px;
+    padding: 10px 0px;
+
+}
+
+#title-background3{
+    margin-top: 20px;
+    width: 25%;
+    background-color: #22284a;
+    color: white;
+  
+}
+
+#house4{
+    height: 300px;
+    width: 100%;
+    background-color: #e0cf8a;
+}
+
+#house4 p{
+    float: right;
+    margin:-185px 140px 20px 280px;
+}
+
+#house4 h2{
+    margin-left: 35px;
+    padding: 10px 0px;
+
+}
+
+#title-background4{
+    margin-top: 20px;
+    width: 25%;
+    background-color: #368271;
+}
+
+#footer2{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Candara;
+    font-weight: 300;
+    margin-top: 1600px;
+    display: flex;
+    justify-content: center;
+}
+
+/* map page */
+#map-background{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    margin-top: 130px;  
+}
+#map_div{
+    height: 670px;
+    background-color: #3a1f13;
+}
+
+#map_div img{
+width: 98%;
+height: 650px;
+margin: 10px;
+cursor: crosshair;
+}
+
+#footer3{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Candara;
+    font-weight: 300;
+    margin-top: 340px;
+    display: flex;
+    justify-content: center;
+}
+
+/* aboutus page */
+#aboutus_background{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    margin-top: 130px; 
+}
+
+#aboutus_div{
+    border: 10px solid #c59900;
+    width: 100%;
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#aboutus_content{
+    background-color: #c5ccf5;
+    width: 95%;
+    height: 600px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+#aboutus_content h1{
+    font-family: Broadway ;
+    font-size: 25px;
+    text-decoration: underline;
+
+}
+
+#aboutus_content p{
+    font-family:Berlin Sans FB;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#aboutus_content img{
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+#footer4{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-family: Candara;
+    font-weight: 300;
+    margin-top: 310px;
+    display: flex;
+    justify-content: center;
+}
+
+/* contactus page */
+
+#contactus_background{
+    position:absolute;
+    z-index: -1;
+    width: 100%;
+    margin-top: 90px;
+}
+
+#contactus_div{
+    border: 10px solid #c59900;
+    width: 100%;
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#contactus_content{
+    background-color: #c5ccf5;
+    width: 95%;
+    height: 600px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#contactus_details{
+    font-family: arial;
+}
+
+#contactus_details form{
+    margin-top: 40px;
+}
+#contactus_details form input{
+    margin-top: 10px;
+    width: 200px;
+}
+#contactus_details form textarea{
+    margin-top: 10px;
+    width: 200px;
+}
+#contactus_details form button{
+    margin-top: 10px;
+    width: 200px;
+    border: none;
+    background-color: #22284a;
+    padding: 5px;
+    color: white;
+    transition: all 150ms ease;
+    font-weight: bold;
+}
+
+#contactus_details form button:hover{
+    margin-top: 10px;
+    width: 100px;
+    border: none;
+    background-color: white;
+    padding: 5px;
+    color: #22284a;
+    border: 1px solid #22284a;
+}
+
+#footer5{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Candara;
+    font-weight: 300;
+    margin-top: 310px;
+    display: flex;
+    justify-content: center;
+}
